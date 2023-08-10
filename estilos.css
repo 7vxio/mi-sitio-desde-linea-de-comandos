@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    color: rgb(243, 194, 69);
+  }
+  
+  h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+  }
+  
+  section {
+    margin: 20px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  footer {
+    background-color: skyblue;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #AcercaDe {
+    padding: 20px;
+  }
+  
+  #proyectos {
+    background-color: #eaeaea;
+    padding: 20px;
+  }
+  
+  h3 {
+    color: #82b5c8;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding-bottom: 20px;
+  }
+  
+  .gallery-image {
+    max-width: 100%;
+    height: auto;
+  }
